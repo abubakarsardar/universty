@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.7)), url('img/bk.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+.logo img{
+    width: 250px;
+    
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding-right:90px ;
+   
+}
+.menu ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul li{
+    padding: 0 18px;
+}
+
+.menu ul li::after{
+    content: '';
+    background: #f4433f;
+    width: 0%;
+    height: 1px;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
+
+
+.home-text{
+    color: #fff;
+    text-align: center;
+    padding-top: 21vh;
+}
+.home-text h1{
+    font-size: 57px;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 13px;
+}
+.home-text p{
+    font-size: 13px;
+    padding-top: 12px;
+    padding-bottom: 27px;
+}
+.hero-btn{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;    
+    font-size: 12px;
+    padding: 10px 33px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    cursor: pointer;
+
+}
+.hero-btn:hover{
+    border: 1px solid #f4433f;
+    background: #f4433f;
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+                    /* //////////////////////////courses//////////////// */
+
+.course{
+    width: 80%;
+    margin: auto;
+    height: 75vh;
+    text-align: center;
+    align-items: center;
+}
+.course-title{
+    padding-top: 50px;
+
+}
+.course-title h1{
+    font-family: 'Kaushan Script', cursive;   
+}
+.course-title p{
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+}
+.course-info{
+    border: 1px solid #efefef;
+    border-radius: 10px;
+    padding: 0 7px;
+    box-shadow: 0 6px 10px 0 #efefef;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.course-info:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 6px 30px 0 #efefef;
+}
+.course-info h3{
+    padding-top: 20px;
+    font-family: 'Kaushan Script', cursive;   
+
+}
+.course-info p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+                         /* //////////////////////campus///////////////////// */
+
+
+.campus{
+    width: 100%;
+    height: 110vh;
+    background: #efefef;
+    
+}
+.campus-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    
+
+}
+.campus-title h1{
+    font-family: 'Kaushan Script', cursive;  
+    font-weight: bold;
+    font-size: 40px;
+}
+.row{
+    width: 80%;
+    margin: auto;
+
+}
+.campus-info{
+    flex-basis: 32%;
+    position: relative;
+    padding-bottom: 30px;
+}
+.campus-info img{
+    width: 100%;
+}
+.campus-info h4{
+    width: 100%;
+    height: 94.5%;
+    left: 0;
+    top: 0;
+    color: transparent;
+    text-align: center;
+    background:transparent;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.5s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.campus-info h4:hover{
+    padding-top:70%;
+    background: rgba(226, 0, 0, 0.7);
+    color: #fff;
+}
+
+
+
+                        /* ////////////////facilities//////////////////// */
+
+
+.facilities{
+    width: 100%;
+    height: 80vh;
+
+}
+
+.facilities-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.facilities-title h1{
+    font-family: 'Kaushan Script', cursive;  
+    font-size: 40px;
+    font-weight: bold;
+}
+.facilities-title p{
+    font-size: 14px;
+}
+.facilities-info{
+    flex-basis: 32%;
+
+}
+.facilities-info img{
+    width: 100%;
+    border-radius: 10px;
+}
+.facilities-info h4{
+    font-size: 17px;
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+.facilities-info p{
+    font-size: 13px;
+}
+
+
+                      /* /////////////////////////comments/////////////////// */
+
+
+
+.comments{
+    width: 100%;
+    height: 70vh;
+    padding: 50px 0;
+
+}
+.comments-title{
+    text-align: center;
+}
+.comments-title h1{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;  
+}
+.comments-title p{
+    padding-bottom: 41px;
+}
+.comment-info{
+    box-shadow: 0 6px 20px #efefef;
+    border: 1px solid #efefef;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.comment-info:hover{
+    transform: translateY(-7px);
+    box-shadow: 0 6px 30px #efefef;
+}
+.comment-disc{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.comment-disc img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+
+}
+.comment-disc p{
+    padding-left: 22px;
+    font-size: 13px;
+}
+.comment-info h4{
+    padding-left: 75px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.rating{
+    padding-left: 75px;
+    padding-bottom: 12px;
+    color: #f4433f;
+    
+}
+.rating .fas{
+    font-size: 15px;
+}
+
+/* ////////////////////////////////cta//////////////////// */
+
+
+.cta{
+    width: 80%;
+    margin: 100px auto;
+    height: 50vh;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('img/com.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    border-radius: 10px;
+    text-align: center;
+
+
+}
+.cta-title{
+    color: #fff;
+
+}
+.cta-title h1{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Kaushan Script', cursive;
+    padding-bottom: 25px;  
+
+}
+.cta-title a{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 10px 24px;
+    font-weight: bold;
+    transition: 0.9s;
+    border-radius: 3px;
+
+}
+.cta-title a:hover{
+    background: #f4433f;
+    border: 1px solid #f4433f;
+
+}
+
+                                   /* ////////////////////////footer///////////////////// */
+
+
+.footer{
+    width: 100%;
+    height: 38vh;
+    background: #efefef;
+
+}
+.footer-title{
+    text-align: center;
+}
+.footer-title h1{
+    padding: 13px 0;
+    font-weight: bold;
+    font-size: 28px;
+    padding-top: 40px;
+}
+.footer-title p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.icons{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.icons .fab{
+    padding: 0 3px;
+    /* margin-bottom: 30px; */
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icons .fab:hover{
+    color: red;
+    font-size: 40px;
+}
+.footer-bottom{
+    text-align: center;
+    font-size: 15px;
+}
+  
+
+                                   /* /////////////////About page//////////////// */
+
+.about-home{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.7)), url('img/bk.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+}
+.menu{
+    padding-top: 25px;
+}
+.about-title{
+    color: #fff;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive; 
+    padding-top: 280px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.about-info{
+    flex-basis: 48%;
+}
+.about-info img{
+    width: 100%;
+    padding-top: 90px;
+}
+
+.row{
+    width: 100%;
+    height: 80vh;
+}
+.about-us-info{
+    padding-top: 120px;
+}
+.about-us-info h1{
+    font-size: 32px;
+    font-weight: bold;
+}
+.about-us-info p{
+    padding-bottom: 15px;
+}
+.about-us-info a{
+    color: black;
+    border: 1px solid #f4433f;
+    padding: 7px 22px;
+    transition: 0.9s;
+    font-weight: bold;
+}
+.about-us-info a:hover{
+    background: #f4433f;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.coursese-home{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.7)), url('img/bk.jpg') ;
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+                       /* ////////////blogs//////////////// */
+            
+.blogs{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+    height: 170vh;
+}
+.left-side{
+    flex-basis: 63%;
+    padding-right: 50px;
+
+}
+.left-side img{
+    width: 100%;
+}
+.left-side h3{
+    padding: 25px 0;
+    font-weight: 600;
+    color: #222;
+}
+.right-side{
+    flex-basis: 32%;
+
+}
+.right-side h4{
+    font-weight: bold;
+    background: #f4433f;
+
+    padding: 7px 0;
+    color: #fff;
+    text-align: center;
+}
+.right-side div{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 0;
+}
+
+
+/* ------------Location-------------- */
+
+
+.location{
+    width: 80%;
+    margin: auto;
+}
+.location iframe{
+    width: 100%;
+    padding: 50px 0;
+    padding-bottom: 130px;
+}
+.contact-col{
+    flex-basis: 48%;
+}
+.left-contact div{
+    padding-left: 150px;
+    display: flex;
+}
+.cont{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+div .fas{
+    color: #f4433f;
+    padding-top: 4px;
+    font-size: 25px;
+}
+.cont h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-col{
+    flex-basis: 48%;
+}
+.contact-col input,.contact-col textarea{
+    width: 80%;
+    outline: none;
+    padding: 7px;
+    background: #efefef;
+    border: 1px solid #ccc;
+    margin: 7px;
+    outline: none;
+}
+.red-btn{
+    border: 1px solid #f4433f;
+    color: black;
+    margin: 7px;
+}
+
+
+
+
